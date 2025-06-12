@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Word Guesser</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .word {
+      font-size: 2rem;
+      letter-spacing: 10px;
+    }
+    .wrong {
+      margin-top: 20px;
+      color: red;
+    }
+    #restartBtn {
+     } < button:id="restartBtn">🔄 Restart Game</button>
+
+    
+  </style>
+</head>
+<body>
+
+<h1>Guess the Secret Word</h1>
+<p class="word" id="displayedWord">_ _ _ _ _</p>
+<p>Press keys on your keyboard to guess!</p>
+<p class="wrong">Wrong guesses: <span id="wrongCount">0</span></p>
+<img src="snake.png" alt="">
+
+<script src="script.js"></script>
+</body>
+</html>
